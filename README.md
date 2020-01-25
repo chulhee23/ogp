@@ -1,3 +1,7 @@
+# ogp gem을 fork해서 제 사용성에 맞게 수정한 젬입니다.
+반드시 필요한 attribute가 없으면 에러를 발생하기 때문에 제 프로젝트에 맞게 수정한 gem입니다.
+
+## 원본 README
 <p align="center">
   <a href="https://github.com/jcouture/ogp">
     <img src="https://i.imgur.com/qZrMsLq.png" alt="ogp" />
