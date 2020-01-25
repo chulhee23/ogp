@@ -46,9 +46,10 @@ module OGP
   private
 
     def check_required_attributes(document)
-      REQUIRED_ATTRIBUTES.each do |attribute_name|
-        raise MissingAttributeError, "Missing required attribute: #{attribute_name}" unless attribute_exists(document, attribute_name)
-      end
+      # REQUIRED_ATTRIBUTES.each do |attribute_name|
+      #   raise MissingAttributeError, "Missing required attribute: #{attribute_name}" unless attribute_exists(document, attribute_name)
+      # end
+      
     end
 
     # rubocop:disable Metrics/CyclomaticComplexity
